@@ -5,5 +5,5 @@
 
 ###效果图
 <div class='row'>
-    <img src='https://github.com/Panl/QQSlideMenu/raw/master/screenshot/qqslidemenu.gif' width="300px" style='border: #f1f1f1 solid 1px'/>
+    <img src='https://github.com/Panl/QQSlideMenu/blob/master/screenshort/qqslidemenu.gif' width="300px" style='border: #f1f1f1 solid 1px'/>
 </div>
