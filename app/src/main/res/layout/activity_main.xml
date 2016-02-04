@@ -16,9 +16,10 @@
             android:orientation="horizontal">
 
             <include layout="@layout/left_menu"/>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical"
                 android:background="@mipmap/main_bg">
                 <Button
                     android:onClick="toggleMenu"
@@ -26,14 +27,14 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="菜单"/>
-                <TextView
+
+                <Button
+                    android:id="@+id/centerButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="MainLayout"
-                    android:textSize="24sp"
-                    android:textColor="#ff0199"
-                    android:layout_centerInParent="true"/>
-            </RelativeLayout>
+                    android:layout_gravity="center"
+                    android:text="个人中心"/>
+            </LinearLayout>
 
         </LinearLayout>
     </me.panl.qqslidemenu.view.QQSlideMenu>

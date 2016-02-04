@@ -170,5 +170,6 @@ public class QQSlideMenu extends HorizontalScrollView {
         ViewHelper.setScaleY(mContent, rightScale);
 
 
+
     }
 }
